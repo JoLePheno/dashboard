@@ -1,0 +1,14 @@
+{ 
+    "_id" : ObjectId("5bbf145b7da0c27542302ac9"), 
+    "username" : "test", 
+    "password" : "$2a$10$awJ89YAOXtDbSTvupUYy0OEVPeFxvAfgpzGWpmav4z8xEj1j5u18q", 
+    "email" : "damsltc57@yahoo.fr", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5bbf3ff0ddaf2b0f5e005185"), 
+    "username" : "dams", 
+    "password" : "$2a$10$nefWgW5IP44Wf92OV1nWr.jpyN.TD1hOyogbX0BPMmAaziGOLqoCG", 
+    "email" : "dams@dams.com", 
+    "__v" : NumberInt(0)
+}

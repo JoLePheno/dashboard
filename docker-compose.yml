@@ -1,0 +1,26 @@
+version: '3'
+services:
+  server:
+    build: ./server/
+    ports:
+    - "3000:3000"
+    depends_on:
+    - mongodb
+   # volumes:
+    #- ./server:/app/
+    environment:
+    - DATABASE_URL=mongodb:27017
+  mongodb:
+    image: mongo
+   # volumes:
+    #- ./db:/app/db
+    ports:
+    - "27017:27017"
+  client:
+    build: ./Vue/
+    ports:
+    - "8080:8080"
+    environment:
+    - API_URL=http://localhost:8080/
+   # volumes:
+    #- ./Vue:/app/

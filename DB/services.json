@@ -1,0 +1,17 @@
+{ 
+    "_id" : ObjectId("5bbf771bc315b23a7e1bef2d"), 
+    "service" : "Weather", 
+    "name" : [
+        "temperature"
+    ], 
+    "icon" : "cloud"
+}
+{ 
+    "_id" : ObjectId("5bc87ba8c315b2191bcb9d02"), 
+    "service" : "Media", 
+    "name" : [
+        "media", 
+        "movie"
+    ], 
+    "icon" : "content_copy"
+}

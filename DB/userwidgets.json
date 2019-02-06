@@ -1,0 +1,16 @@
+{ 
+    "_id" : ObjectId("5bcc83bf6f722a29ebc5e1ca"), 
+    "userEmail" : "damsltc57@yahoo.fr", 
+    "service" : "Media", 
+    "widget" : "media", 
+    "x" : NumberInt(2), 
+    "y" : NumberInt(0), 
+    "w" : NumberInt(4), 
+    "h" : NumberInt(15), 
+    "config" : {
+        "timer" : NumberInt(50000), 
+        "visible" : true, 
+        "link" : "le-monde"
+    }, 
+    "__v" : NumberInt(0)
+}
